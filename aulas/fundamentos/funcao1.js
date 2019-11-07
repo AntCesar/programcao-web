@@ -3,7 +3,7 @@ function imprimirSoma(a, b) {
 }
 
 function imprimirSoma2(a, b) {
-    return a + b
+    console.log(a + b)
 }
 
 function imprimirSubtracao(a, b) {
@@ -19,7 +19,7 @@ function imprimirDivisao(a, b) {
 }
 
 function imprimirPotencia(a, b) {
-    console.log(a^b)
+    console.log(a ** b)
 }
 
 function imprimirRestoDaDivisao(a, b) {
@@ -27,4 +27,4 @@ function imprimirRestoDaDivisao(a, b) {
 }
 
 imprimirSoma(6, 8)
-imprimirSoma2(5, 19)
+imprimirPotencia(5, 4)
